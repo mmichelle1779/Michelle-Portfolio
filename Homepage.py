@@ -16,7 +16,7 @@ def load_lottieurl(url):
 lottie_coding = load_lottieurl("https://lottie.host/5755b802-5e4d-4e48-b1de-847e86f2ab3c/VuE4W5i6Tp.json")
 
 # Sidebar Menu
-st.sidebar.success("Select a page above.")
+st.sidebar.success("")
 
 # Header Section
 with st.container():
