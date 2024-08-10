@@ -7,9 +7,11 @@ from streamlit_option_menu import option_menu
 img_win_conference = Image.open("images/WIB Annual Business Conference Itinerary.png")
 img_wib_podcast = Image.open("images/Pink Illustrative Podcast Logo.png")
 
+st.title("My Projects")
+
 # Projects
 with st.container():
-    st.header("My Projects")
+    st.write("---")
     image_column, text_column = st.columns((1, 2))
     with image_column:
         st.image(img_wib_podcast)
@@ -25,7 +27,8 @@ with st.container():
             """
         )
 
-
+with st.container():
+    st.write("---")
     image_column, text_column = st.columns((1, 2))
     with image_column:
         st.image(img_win_conference)
