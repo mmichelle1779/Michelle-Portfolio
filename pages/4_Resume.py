@@ -45,3 +45,80 @@ with col2:
         file_name=resume_file.name,
         mime="application/octet-stream",
     )
+
+# Skills
+st.subheader("Technical Skills")
+st.write(
+    """
+    - Programming: Python, SQL, Stata, R
+    - Data Visualization: MS Excel
+    - Databases: MySQL
+    - CRM: Salesforce, HubSpot
+    """
+)
+
+# Work Experience
+st.write("---")
+st.subheader("Work Experience")
+st.write("**Operations/Program Manager Intern | Hospitality Information - UCSD Sixth College**")
+st.write("May 2023 - September 2024 | La Jolla, CA")
+st.write(
+    """
+    - Led a team of 10 Clerks using agile project principles, including iterative sprints and daily stand-ups, 
+    resulting in a 20% boost in productivity and enhanced team collaboration in a fast-paced environment.
+    - Managed multiple tasks and deadlines, coordinating logistics for 50+ conferences using Trello and Slack, 
+    improving efficiency and stakeholder satisfaction by 15%.
+    - Conducted evaluations and feedback, improving database accuracy and timeliness by 15% and increasing customer 
+    satisfaction by 10%.
+
+    """
+)
+st.write("**Product Marketing Intern | Volition Beauty**")
+st.write("May 2023 - August 2023 | San Francisco, CA")
+st.write(
+    """
+    - Managed product roadmaps and aligned product strategy with customer needs throughout the product lifecycle, 
+    contributing to a 10% expansion in brand reach and a 15% boost in engagement by integrating research findings 
+    into marketing and development strategies.
+    - Enhanced understanding of the product lifecycle by actively participating in product discovery, planning, and 
+    development phases, driving alignment between customer experience and product strategy.
+    - Created and maintained marketing databases using Salesforce, increasing email open rates by 10% and click-through 
+    rates by 15%, while utilizing customer feedback to refine product features and marketing strategies, resulting in a 
+    15% increase in satisfaction.
+    """
+)
+
+# Leadership & Involvement
+st.write("---")
+st.subheader("Leadership & Involvement")
+st.write("**Director of Outreach | UC San Diego Women In Business**")
+st.write("November 2023 - Present | La Jolla, CA")
+st.write(
+    """
+    - Orchestrated major events, including the Annual Business Conference with 500+ attendees, increasing sponsorships 
+    by 20% and event participation by 15% through established industry partnerships that enhanced networking 
+    opportunities.
+    - Launched and managed the UCSD Women in Business podcast, defining the product vision, creating a content roadmap, 
+    and leading market research efforts to ensure alignment with audience interests, resulting in a high-impact 
+    platform for industry insights.
+    - Managed event budgets, improving adherence by 10% and demonstrating strong organizational and time management skills.
+    """
+)
+
+# Projects
+st.write("---")
+st.subheader("Projects")
+st.write("**Women In Business Podcast: You Heard Her**")
+st.write("Product Lead | UCSD Women In Business")
+st.write(
+    """
+    - Defined the podcast's vision to empower and inspire women in business, developing a product strategy that positioned 
+    it as a leading platform for industry insights, resulting in a 25% increase in listener engagement.
+    - Created and managed a detailed roadmap for content creation and episode releases, aligning quarterly themes like 
+    FinTech and product management with audience demand, which contributed to a 15% increase in listener satisfaction.
+    - Conducted market research to identify trending topics and inform strategy, using feedback to iterate and enhance 
+    the podcast experience.
+    - Led the development and execution of campaigns, driving visibility and engagement through targeted outreach and 
+    social media initiatives, achieving a 40% increase in overall podcast visibility.
+    """
+)
