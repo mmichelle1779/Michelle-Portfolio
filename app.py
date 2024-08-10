@@ -17,12 +17,12 @@ def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-local_css("/Users/michelle/Desktop/streamlit_apps/style/style.css")
+local_css("style/style.css")
 
 # Load Assets
 lottie_coding = load_lottieurl("https://lottie.host/5755b802-5e4d-4e48-b1de-847e86f2ab3c/VuE4W5i6Tp.json")
-img_win_conference = Image.open("/Users/michelle/Desktop/streamlit_apps/images/WIB Annual Business Conference Itinerary.png")
-img_wib_podcast = Image.open("/Users/michelle/Desktop/streamlit_apps/images/Pink Illustrative Podcast Logo.png")
+img_win_conference = Image.open("images/WIB Annual Business Conference Itinerary.png")
+img_wib_podcast = Image.open("images/Pink Illustrative Podcast Logo.png")
 
 # Header Section
 with st.container():
