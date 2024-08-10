@@ -18,7 +18,7 @@ with st.container():
     st.header("My Contact Info")
     st.write(":telephone_receiver: : (408) 234-1779")
     st.write(":e-mail: : mimar@ucsd.edu")
-    st.write(":mega: : [LinkedIn](https://www.linkedin.com/in/michelle-m-mar/)")
+    st.write(":mega: : [linkedin.com/in/michelle-m-mar/](linkedin.com/in/michelle-m-mar/)")
 
 # Contact Form
 with st.container():
