@@ -56,6 +56,22 @@ with st.container():
     st.header("My Projects")
     image_column, text_column = st.columns((1, 2))
     with image_column:
+        st.image(img_wib_podcast)
+    with text_column:
+        st.subheader("Women In Business Podcast: You Heard Her")
+        st.write(
+            """
+            The UCSD Women in Business podcast is dedicated to highlighting the journeys and achievements of inspiring 
+            women in various industries. Through in-depth interviews, the podcast explores their career paths, 
+            challenges, and successes, offering valuable insights and advice to listeners. The goal is to empower and 
+            inspire women in the business world by sharing stories of leadership, innovation, and resilience, creating 
+            a platform for diverse voices and perspectives.
+            """
+        )
+
+
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
         st.image(img_win_conference)
     with text_column:
         st.subheader("Women In Business 2024 Annual Winter Conference: Beyond the Blueprint")
@@ -73,21 +89,6 @@ with st.container():
             """
         )
         st.markdown("[Click here to learn more.](https://drive.google.com/drive/folders/1BLgSdXOvQPych6WH-JIvwpyJgpMPhtWb)")
-
-    image_column, text_column = st.columns((1, 2))
-    with image_column:
-        st.image(img_wib_podcast)
-    with text_column:
-        st.subheader("Women In Business Podcast: You Heard Her")
-        st.write(
-            """
-            The UCSD Women in Business podcast is dedicated to highlighting the journeys and achievements of inspiring 
-            women in various industries. Through in-depth interviews, the podcast explores their career paths, 
-            challenges, and successes, offering valuable insights and advice to listeners. The goal is to empower and 
-            inspire women in the business world by sharing stories of leadership, innovation, and resilience, creating 
-            a platform for diverse voices and perspectives.
-            """
-        )
 
 
 # Contact
