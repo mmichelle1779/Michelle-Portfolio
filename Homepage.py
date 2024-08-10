@@ -3,7 +3,7 @@ import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
 
-# Find emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
+# Find emojis here: https://streamlit-emoji-shortcodes-streamlit-app-gwckff.streamlit.app/
 st.set_page_config(page_title="Michelle's Homepage", page_icon=":love_letter:", layout="wide")
 
 def load_lottieurl(url):

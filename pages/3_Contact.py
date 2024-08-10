@@ -11,13 +11,14 @@ def local_css(file_name):
 
 local_css("style/style.css")
 
-# Find emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
+# Find emojis here: https://streamlit-emoji-shortcodes-streamlit-app-gwckff.streamlit.app/
 
 # Contact Info
 with st.container():
     st.header("My Contact Info")
     st.write(":telephone_receiver: : (408) 234-1779")
-    st.write(":love_letter: : mimar@ucsd.edu")
+    st.write(":e-mail: : mimar@ucsd.edu")
+    st.write(":mega: : [LinkedIn](https://www.linkedin.com/in/michelle-m-mar/)")
 
 # Contact Form
 with st.container():
