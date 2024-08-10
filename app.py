@@ -12,38 +12,15 @@ def load_lottieurl(url):
         return None
     return r.json()
 
-# Use local CSS
-def local_css(file_name):
-    with open(file_name) as f:
-        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-local_css("style/style.css")
-
-# Inject custom JavaScript to reset scroll position
-st.markdown(
-    """
-    <script>
-        // Store the current scroll position in session storage
-        window.addEventListener('beforeunload', function() {
-            sessionStorage.setItem('scrollPos', window.scrollY);
-        });
-
-        // Retrieve the scroll position and reset it after page load
-        window.addEventListener('load', function() {
-            const scrollPos = sessionStorage.getItem('scrollPos');
-            if (scrollPos) {
-                window.scrollTo(0, parseInt(scrollPos));
-            }
-        });
-    </script>
-    """,
-    unsafe_allow_html=True
-)
 
 # Load Assets
 lottie_coding = load_lottieurl("https://lottie.host/5755b802-5e4d-4e48-b1de-847e86f2ab3c/VuE4W5i6Tp.json")
 img_win_conference = Image.open("images/WIB Annual Business Conference Itinerary.png")
 img_wib_podcast = Image.open("images/Pink Illustrative Podcast Logo.png")
+
+# Add an anchor link at the top of the page
+st.markdown('<a name="top"></a>', unsafe_allow_html=True)
 
 # Header Section
 with st.container():
