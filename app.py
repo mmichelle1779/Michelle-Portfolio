@@ -31,6 +31,9 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+# Add a hidden input to prevent unwanted focus
+st.text_input("Hidden", value="", type="password", key="hidden_input", label_visibility="collapsed")
+
 # Load Assets
 lottie_coding = load_lottieurl("https://lottie.host/5755b802-5e4d-4e48-b1de-847e86f2ab3c/VuE4W5i6Tp.json")
 img_win_conference = Image.open("images/WIB Annual Business Conference Itinerary.png")
