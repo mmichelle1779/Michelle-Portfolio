@@ -36,7 +36,7 @@ url = "https://raw.githubusercontent.com/mmichelle1779/Michelle-Portfolio/main/p
 # Hero Section
 col1, col2 = st.columns(2, gap="small")
 with col1:
-    st.image(url, width=200)
+    st.image(url, width=230)
 
 with col2:
     st.title(NAME)
@@ -47,4 +47,3 @@ with col2:
         file_name=resume_file.name,
         mime="application/octet-stream",
     )
-    st.write(":love_letter: ", EMAIL)
