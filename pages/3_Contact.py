@@ -15,7 +15,6 @@ local_css("style/style.css")
 
 # Contact Info
 with st.container():
-    st.write("---")
     st.header("My Contact Info")
     st.write(":telephone_receiver: : (408) 234-1779")
     st.write(":love_letter: : mimar@ucsd.edu")
