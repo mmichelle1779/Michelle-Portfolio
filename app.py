@@ -19,20 +19,26 @@ def local_css(file_name):
 
 local_css("style/style.css")
 
-# Inject custom JavaScript to prevent scrolling to the bottom on refresh
+# Inject custom JavaScript to reset scroll position
 st.markdown(
     """
     <script>
+        // Store the current scroll position in session storage
+        window.addEventListener('beforeunload', function() {
+            sessionStorage.setItem('scrollPos', window.scrollY);
+        });
+
+        // Retrieve the scroll position and reset it after page load
         window.addEventListener('load', function() {
-            window.scrollTo(0, 0);
+            const scrollPos = sessionStorage.getItem('scrollPos');
+            if (scrollPos) {
+                window.scrollTo(0, parseInt(scrollPos));
+            }
         });
     </script>
     """,
     unsafe_allow_html=True
 )
-
-# Add a hidden input to prevent unwanted focus
-st.text_input("Hidden", value="", type="password", key="hidden_input", label_visibility="collapsed")
 
 # Load Assets
 lottie_coding = load_lottieurl("https://lottie.host/5755b802-5e4d-4e48-b1de-847e86f2ab3c/VuE4W5i6Tp.json")
