@@ -25,14 +25,26 @@ lottie_coding = load_lottieurl("https://lottie.host/5755b802-5e4d-4e48-b1de-847e
 img_win_conference = Image.open("images/WIB Annual Business Conference Itinerary.png")
 img_wib_podcast = Image.open("images/Pink Illustrative Podcast Logo.png")
 
-# Sidebar Menu
+# Horizontal Menu
 with st.sidebar:
     selected = option_menu(
-        menu_title="Main Menu", #required
+        menu_title=None, #required
         options=["Home", "Projects", "Contact"], #required
         icons=["house", "book", "envelope"], #optional
         menu_icon="cast", #optional
         default_index=0, #optional
+        orientation="horizontal",
+        styles={
+            "container": {"padding": "0!important", "background-color"},
+            "icon": {"color": "orange", "font-size": "25px"},
+            "nav-link": {
+                "font-size": "25px",
+                "text-align": "left",
+                "margin": "0px"
+                "--hover-color": "#eee",
+            },
+            "nav-link-selected": {"background-color": "green"},
+        }
     )
 
 if selected == "Home":
