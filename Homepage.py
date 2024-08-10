@@ -16,7 +16,7 @@ def load_lottieurl(url):
 lottie_coding = load_lottieurl("https://lottie.host/5755b802-5e4d-4e48-b1de-847e86f2ab3c/VuE4W5i6Tp.json")
 
 # Sidebar Menu
-
+st.sidebar.write("")
 
 # Header Section
 with st.container():
@@ -40,7 +40,7 @@ with st.container():
             """
         )
         st.write("Want to learn more?")
-        st.write("Navigate to my [projects](https://michelle-portfolio.streamlit.app/Projects) or "
+        st.write("Navigate to my projects or "
                  "check out my [LinkedIn](https://www.linkedin.com/in/michelle-m-mar/).")
     with right_column:
         st.lottie(lottie_coding, height=300, key="coding")
