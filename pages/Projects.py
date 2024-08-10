@@ -1,8 +1,14 @@
+from PIL import Image
+import requests
 import streamlit as st
+from streamlit_option_menu import option_menu
+
+# Load Assets
+img_win_conference = Image.open("images/WIB Annual Business Conference Itinerary.png")
+img_wib_podcast = Image.open("images/Pink Illustrative Podcast Logo.png")
 
 # Projects
 with st.container():
-    st.write("---")
     st.header("My Projects")
     image_column, text_column = st.columns((1, 2))
     with image_column:
