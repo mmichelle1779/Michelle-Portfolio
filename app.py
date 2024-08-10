@@ -1,6 +1,7 @@
 from PIL import Image
 import requests
 import streamlit as st
+from streamlit_option_menu import option_menu
 from streamlit_lottie import st_lottie
 
 # Find emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
@@ -24,8 +25,22 @@ lottie_coding = load_lottieurl("https://lottie.host/5755b802-5e4d-4e48-b1de-847e
 img_win_conference = Image.open("images/WIB Annual Business Conference Itinerary.png")
 img_wib_podcast = Image.open("images/Pink Illustrative Podcast Logo.png")
 
-# Add an anchor link at the top of the page
-st.markdown('<a name="top"></a>', unsafe_allow_html=True)
+# Sidebar Menu
+with st.sidebar:
+    selected = option_menu(
+        menu_title="Main Menu", #required
+        options=["Home", "Projects", "Contact"], #required
+        icons=["house", "book", "envelope"], #optional
+        menu_icon="cast", #optional
+        default_index=0, #optional
+    )
+
+if selected == "Home":
+    st.title(f"You have selected {selected}")
+if selected == "Projects":
+    st.title(f"You have selected {selected}")
+if selected == "Contact":
+    st.title(f"You have selected {selected}")
 
 # Header Section
 with st.container():
