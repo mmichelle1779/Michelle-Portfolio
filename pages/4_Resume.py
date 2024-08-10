@@ -45,8 +45,11 @@ with col2:
         file_name=resume_file.name,
         mime="application/octet-stream",
     )
+    st.write(":e-mail: : mimar@ucsd.edu")
+    st.write(":mega: : [linkedin.com/in/michelle-m-mar/](linkedin.com/in/michelle-m-mar/)")
 
 # Skills
+st.write("---")
 st.subheader("Technical Skills")
 st.write(
     """
@@ -56,6 +59,10 @@ st.write(
     - CRM: Salesforce, HubSpot
     """
 )
+
+# Certifications
+st.subheader("Certifications")
+st.write("Google Data Analytics Professional Certificate | August 2024")
 
 # Work Experience
 st.write("---")
