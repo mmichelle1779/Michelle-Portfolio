@@ -40,6 +40,7 @@ with st.container():
             """
         )
         st.write("Want to learn more?")
-        st.write("Navigate to my projects or check out my [LinkedIn](https://www.linkedin.com/in/michelle-m-mar/).")
+        st.write("Navigate to my [projects](https://michelle-portfolio.streamlit.app/Projects) or "
+                 "check out my [LinkedIn](https://www.linkedin.com/in/michelle-m-mar/).")
     with right_column:
         st.lottie(lottie_coding, height=300, key="coding")
