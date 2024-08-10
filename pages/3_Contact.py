@@ -2,6 +2,8 @@ from PIL import Image
 import requests
 import streamlit as st
 
+st.set_page_config(page_title="Contact Info", page_icon=":love_letter:", layout="wide")
+
 # Use local CSS
 def local_css(file_name):
     with open(file_name) as f:
@@ -9,11 +11,19 @@ def local_css(file_name):
 
 local_css("style/style.css")
 
-# Contact
+# Find emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
+
+# Contact Info
+with st.container():
+    st.write("---")
+    st.header("My Contact Info")
+    st.write(":telephone_receiver: : (408) 234-1779")
+    st.write(":love_letter: : mimar@ucsd.edu")
+
+# Contact Form
 with st.container():
     st.write("---")
     st.header("Get in touch with me!")
-    st.write("##")
 
     # Documentation: https://formsubmit.co/
     contact_form = """
