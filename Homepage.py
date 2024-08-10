@@ -65,7 +65,7 @@ with st.container():
 
     # Documentation: https://formsubmit.co/
     contact_form = """
-    <form action="https://formsubmit.co/mimar@ucsd.edu" method="POST">
+    <form action="https://formsubmit.co/mmichelle1779@gmail.com" method="POST">
         <input type="hidden" name="_captcha" value="false">
         <input type="text" name="name" placeholder="Your name" required>
         <input type="email" name="email" placeholder="Your email" required>
