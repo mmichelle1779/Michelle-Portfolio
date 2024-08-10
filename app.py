@@ -31,7 +31,7 @@ with st.container():
 
 # What I Do
 with st.container():
-    st.write("---")
+
     left_column, right_column = st.columns(2)
     with left_column:
         st.header("About Me")
@@ -52,7 +52,7 @@ with st.container():
 
 # Projects
 with st.container():
-    st.write("---")
+
     st.header("My Projects")
     image_column, text_column = st.columns((1, 2))
     with image_column:
@@ -93,7 +93,7 @@ with st.container():
 
 # Contact
 with st.container():
-    st.write("---")
+
     st.header("Get in touch with me!")
     st.write("##")
 
