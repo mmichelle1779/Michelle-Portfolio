@@ -1,7 +1,6 @@
 from PIL import Image
 import requests
 import streamlit as st
-from streamlit_option_menu import option_menu
 
 # Load Assets
 img_win_conference = Image.open("images/WIB Annual Business Conference Itinerary.png")
