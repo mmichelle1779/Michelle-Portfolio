@@ -26,25 +26,25 @@ img_win_conference = Image.open("images/WIB Annual Business Conference Itinerary
 img_wib_podcast = Image.open("images/Pink Illustrative Podcast Logo.png")
 
 # Horizontal Menu
-with st.sidebar:
-    selected = option_menu(
-        menu_title=None, #required
-        options=["Home", "Projects", "Contact"], #required
-        icons=["house", "book", "envelope"], #optional
-        menu_icon="cast", #optional
-        default_index=0, #optional
-        orientation="horizontal",
-        styles={
-            "container": {"padding": "0!important", "background-color": "white"},
-            "icon": {"color": "orange", "font-size": "25px"},
-            "nav-link": {
-                "font-size": "25px",
-                "text-align": "left",
-                "margin": "0px"
-            },
-            "nav-link-selected": {"background-color": "green"},
-        }
-    )
+ selected = option_menu(
+    menu_title=None, #required
+    options=["Home", "Projects", "Contact"], #required
+    icons=["house", "book", "envelope"], #optional
+    menu_icon="cast", #optional
+    default_index=0, #optional
+    orientation="horizontal",
+    styles={
+        "container": {"padding": "0!important", "background-color": "white"},
+        "icon": {"color": "orange", "font-size": "25px"},
+        "nav-link": {
+            "font-size": "25px",
+            "text-align": "left",
+            "margin": "0px"
+            "--hover-color": "#eee",
+        },
+        "nav-link-selected": {"background-color": "white"},
+    }
+ )
 
 if selected == "Home":
     st.title(f"You have selected {selected}")
