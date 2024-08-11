@@ -27,6 +27,8 @@ with st.container():
             a platform for diverse voices and perspectives.
             """
         )
+        st.write("What's our [process]()?")
+        st.markdown("Spotify Podcast link coming soon!")
 
 with st.container():
     st.write("---")
@@ -48,4 +50,4 @@ with st.container():
             their professional networks.
             """
         )
-        st.markdown("[Click here to learn more.](https://drive.google.com/drive/folders/1BLgSdXOvQPych6WH-JIvwpyJgpMPhtWb)")
+        st.markdown("Click [here](https://drive.google.com/drive/folders/12yZrD5miL4K8h8b0P833YPDFYZv-099s) to learn more.")
