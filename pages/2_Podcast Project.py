@@ -6,8 +6,8 @@ st.set_page_config(page_title="Podcast Project", page_icon=":love_letter:", layo
 
 # Load Assets
 img_wib_podcast = Image.open("images/Pink Illustrative Podcast Logo.png")
-podcast_graphic_1 = Image.open("images/Podcast Project Infographic/1.png")
-podcast_graphic_2 = Image.open("images/Podcast Project Infographic/2.png")
+graphic1 = "https://github.com/mmichelle1779/Michelle-Portfolio/blob/main/images/Podcast%20Project%20Infographic/1.png"
+graphic2 = "https://github.com/mmichelle1779/Michelle-Portfolio/blob/main/images/Podcast%20Project%20Infographic/2.png"
 
 # Title
 st.title("Women In Business Podcast: You Heard Her")
@@ -37,13 +37,11 @@ with st.container():
 # Project Breakdown with Infographics
 st.write("---")
 
-# URL for graphics
-url = "https://github.com/mmichelle1779/Michelle-Portfolio/blob/main/images/Podcast%20Project%20Infographic/1.png"
-
+# Product Vision
 with st.container():
-    text_column, image_column = st.columns((4, 1))
+    text_column, image_column = st.columns((3.5, 1))
     with image_column:
-        st.image(url, width=230)
+        st.image(graphic1, width=300)
     with text_column:
         st.subheader("Product Vision")
         st.write(
@@ -57,31 +55,36 @@ with st.container():
             """
         )
 
+# Product Roadmap
+st.subheader("Product Roadmap")
 
-
+# Product Strategy
+with st.container():
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(graphic2, width=300)
+    with text_column:
+        st.subheader("Product Strategy")
+        st.write(
+            """
+            1. **Audience-Centric Content:** Deliver high-value content that resonates with aspiring women in business, 
+            focusing on leadership, innovation, and career development.
+            2. **Engagement & Feedback Loop:** Regularly survey student members to identify topic interests and guest 
+            preferences, ensuring content remains relevant and engaging.
+            3. **Collaborative Promotion:** Collaborate with Marketing and Finance Committees to boost visibility through 
+            social media, Slack channels, and newsletters while efficiently allocating the budget.
+            4. **Cross-Functional Collaboration:** Align podcast goals with organizational objectives, working closely 
+            with the WIB External Committee, studio technicians, and marketing teams for seamless production and promotion.
+            5. **Scalable Growth:** Plan for content expansion with new series and themes, and explore partnerships and 
+            sponsorships to support long-term growth and broaden reach.
+            """
+        )
 
 
 # Draft 1
 
 
-st.write("**Product Strategy:**")
-st.write(
-    """
-    - Developed a comprehensive product strategy aligned with market trends and audience preferences.
-    - Conducted outreach and cold emailing/messaging to potential guest speakers.
-    - Crafted a personalized question list based on a survey of common questions from student members, tailoring inquiries 
-    to the guest’s profession and story.
-    - Facilitated recording sessions in the campus podcasting studio to produce high-quality episodes.    
-    """
-)
-st.write("**Roadmap Roadmap:**")
-st.write(
-    """
-    - Created and managed a detailed roadmap for content creation and episode releases, aligning quarterly themes like 
-    FinTech and product management with audience demand. This roadmap ensured the timely delivery of episodes and 
-    aligned the podcast's growth with its strategic objectives.
-    """
-)
+
 st.write("**Market Research:**")
 st.write(
     """
