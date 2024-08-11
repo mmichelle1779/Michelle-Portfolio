@@ -38,8 +38,7 @@ with st.container():
 st.write("---")
 
 # URL for graphics
-url = "https://raw.githubusercontent.com/mmichelle1779/Michelle-Portfolio/main/pages/assets/Michelle%20LinkedIn%20Headshot.png"
-
+url = "https://github.com/mmichelle1779/Michelle-Portfolio/blob/main/images/Podcast%20Project%20Infographic/1.png"
 
 with st.container():
     text_column, image_column = st.columns((4, 1))
