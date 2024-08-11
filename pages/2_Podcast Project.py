@@ -7,9 +7,11 @@ st.set_page_config(page_title="Podcast Project", page_icon=":love_letter:", layo
 # Load Assets
 img_wib_podcast = Image.open("images/Pink Illustrative Podcast Logo.png")
 
-# Projects
+# Title
 st.title("Women In Business Podcast: You Heard Her")
 st.write("---")
+
+# Project Info
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
@@ -32,6 +34,7 @@ with st.container():
 
 st.write("---")
 st.subheader("What's our process?")
+
 st.write("**Product Vision:**")
 st.write(
     """
