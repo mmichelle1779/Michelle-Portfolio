@@ -6,6 +6,8 @@ st.set_page_config(page_title="Podcast Project", page_icon=":love_letter:", layo
 
 # Load Assets
 img_wib_podcast = Image.open("images/Pink Illustrative Podcast Logo.png")
+podcast_graphic_1 = Image.open("images/Podcast Project Infographic/1.png")
+podcast_graphic_2 = Image.open("images/Podcast Project Infographic/2.png")
 
 # Title
 st.title("Women In Business Podcast: You Heard Her")
@@ -26,22 +28,43 @@ with st.container():
             a platform for diverse voices and perspectives.
             """
         )
-        st.write("Check out my [Project Planning Guide]"
+        st.write("Check out my [Project Planning Sheet]"
                  "(https://docs.google.com/document/d/1vDb1Sjt3bEbyKkZzqr4WmFqzDMEAxsDINTeFEkJDUeM/edit#heading=h.gjdgxs)")
         st.write("Check out my [Podcast Outreach Template]"
                  "(https://docs.google.com/document/d/1STOPvyBbjaMcodNlF782AylJrbpTiKd6-vUMfS6Xap0/edit#heading=h.gjdgxs)")
         st.markdown("Spotify Podcast link coming soon!")
 
+# Project Breakdown with Infographics
 st.write("---")
-st.subheader("What's our process?")
 
-st.write("**Product Vision:**")
-st.write(
-    """
-    - To empower and inspire women in business by sharing stories of leadership, innovation, and resilience, and to 
-    create a platform for diverse voices and perspectives.
-    """
-)
+# URL for graphics
+url = "https://raw.githubusercontent.com/mmichelle1779/Michelle-Portfolio/main/pages/assets/Michelle%20LinkedIn%20Headshot.png"
+
+
+with st.container():
+    text_column, image_column = st.columns((4, 1))
+    with image_column:
+        st.image(url, width=230)
+    with text_column:
+        st.subheader("Product Vision")
+        st.write(
+            """
+            - To create a leading platform that empowers and inspires women in business by sharing diverse stories of 
+            leadership, innovation, and resilience. The podcast aims to bridge the gap between aspiring professionals 
+            and industry leaders by providing valuable insights, actionable advice, and a sense of community, ultimately 
+            fostering the growth and success of women in various fields. Through engaging and in-depth interviews, the 
+            podcast will become a trusted resource for listeners seeking inspiration and guidance in navigating their 
+            career paths.
+            """
+        )
+
+
+
+
+
+# Draft 1
+
+
 st.write("**Product Strategy:**")
 st.write(
     """

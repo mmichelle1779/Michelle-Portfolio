@@ -32,11 +32,11 @@ with open(resume_file, "rb") as pdf_file:
 url = "https://raw.githubusercontent.com/mmichelle1779/Michelle-Portfolio/main/pages/assets/Michelle%20LinkedIn%20Headshot.png"
 
 # Hero Section
-col1, col2 = st.columns(2, gap="small")
-with col1:
+image_column, text_column = st.columns((1, 2))
+with image_column:
     st.image(url, width=230)
 
-with col2:
+with text_column:
     st.title(NAME)
     st.write(DESCRIPTION)
     st.download_button(
