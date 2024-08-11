@@ -46,7 +46,7 @@ with col2:
         mime="application/octet-stream",
     )
     st.write(":e-mail: : mimar@ucsd.edu")
-    st.write(":mega: : [linkedin.com/in/michelle-m-mar/](linkedin.com/in/michelle-m-mar/)")
+    st.write(":mega: : [linkedin.com/in/michelle-m-mar/](https://www.linkedin.com/in/michelle-m-mar/)")
 
 # Skills
 st.write("---")
