@@ -53,10 +53,9 @@ st.write("---")
 st.subheader("Technical Skills")
 st.write(
     """
-    - Programming: Python, SQL, Stata, R
-    - Data Visualization: MS Excel
-    - Databases: MySQL
-    - CRM: Salesforce, HubSpot
+    - Data Analysis: SQL, Python, MS Excel, CRM Tools (Salesforce, HubSpot)
+    - Product Management: Product Strategy, Roadmap Development, Customer Feedback Integration
+    - Agile Methodology: Iterative Sprints, Task Prioritization, Cross-functional Collaboration
     """
 )
 
