@@ -65,7 +65,8 @@ with st.container():
             a platform for diverse voices and perspectives.
             """
         )
-        st.write("Click [here](https://michelle-portfolio.streamlit.app/Podcast_Project) to learn more.")
+        st.write("Want a sneak peek? Check out this [clip]"
+                 "(https://drive.google.com/file/d/1QUWe0NPRsF8MLLswyb0AyUamGvhnsvYW/view?usp=sharing) of our first episode!")
         st.markdown("Spotify Podcast link coming soon!")
 
 with st.container():

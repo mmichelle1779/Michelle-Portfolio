@@ -16,9 +16,9 @@ local_css("style/style.css")
 # Contact Info
 with st.container():
     st.header("My Contact Info")
-    st.write(":telephone_receiver: : (408) 234-1779")
-    st.write(":e-mail: : mimar@ucsd.edu")
-    st.write(":mega: : [linkedin.com/in/michelle-m-mar/](https://www.linkedin.com/in/michelle-m-mar/)")
+    st.write("Phone :telephone_receiver: : (408) 234-1779")
+    st.write("Email :e-mail: : mimar@ucsd.edu")
+    st.write("LinkedIn :mega: : [linkedin.com/in/michelle-m-mar/](https://www.linkedin.com/in/michelle-m-mar/)")
 
 # Contact Form
 with st.container():

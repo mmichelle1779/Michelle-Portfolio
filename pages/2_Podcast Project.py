@@ -31,10 +31,8 @@ with st.container():
             a platform for diverse voices and perspectives.
             """
         )
-        st.write("Check out my [Project Planning Sheet]"
-                 "(https://docs.google.com/document/d/1vDb1Sjt3bEbyKkZzqr4WmFqzDMEAxsDINTeFEkJDUeM/edit#heading=h.gjdgxs)")
-        st.write("Check out my [Podcast Outreach Template]"
-                 "(https://docs.google.com/document/d/1STOPvyBbjaMcodNlF782AylJrbpTiKd6-vUMfS6Xap0/edit#heading=h.gjdgxs)")
+        st.write("Want a sneak peek? Check out this [clip]"
+                 "(https://drive.google.com/file/d/1QUWe0NPRsF8MLLswyb0AyUamGvhnsvYW/view?usp=sharing) of our first episode!")
         st.markdown("Spotify Podcast link coming soon!")
 
 # Project Breakdown with Infographics

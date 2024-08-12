@@ -45,8 +45,8 @@ with text_column:
         file_name=resume_file.name,
         mime="application/octet-stream",
     )
-    st.write(":e-mail: : mimar@ucsd.edu")
-    st.write(":mega: : [linkedin.com/in/michelle-m-mar/](https://www.linkedin.com/in/michelle-m-mar/)")
+    st.write("Email :e-mail: : mimar@ucsd.edu")
+    st.write("LinkedIn :mega: : [linkedin.com/in/michelle-m-mar/](https://www.linkedin.com/in/michelle-m-mar/)")
 
 # Skills
 st.write("---")
