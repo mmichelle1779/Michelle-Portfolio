@@ -6,8 +6,11 @@ st.set_page_config(page_title="Podcast Project", page_icon=":love_letter:", layo
 
 # Load Assets
 img_wib_podcast = Image.open("images/Pink Illustrative Podcast Logo.png")
-graphic1 = "https://github.com/mmichelle1779/Michelle-Portfolio/blob/main/images/Podcast%20Project%20Infographic/1.png"
-graphic2 = "https://github.com/mmichelle1779/Michelle-Portfolio/blob/main/images/Podcast%20Project%20Infographic/2.png"
+graphic1 = ("images/Podcast Project Infographic/1.png")
+graphic2 = ("images/Podcast Project Infographic/2.png")
+graphic3 = ("images/Podcast Project Infographic/3.png")
+product_roadmap1 = ("images/product roadmap/1.png")
+product_roadmap2 = ("images/product roadmap/2.png")
 
 # Title
 st.title("Women In Business Podcast: You Heard Her")
@@ -35,18 +38,18 @@ with st.container():
         st.markdown("Spotify Podcast link coming soon!")
 
 # Project Breakdown with Infographics
-st.write("---")
 
 # Product Vision
 with st.container():
+    st.write("---")
+    st.subheader("Product Vision")
     text_column, image_column = st.columns((3.5, 1))
     with image_column:
-        st.image(graphic1, width=300)
+        st.image(graphic1)
     with text_column:
-        st.subheader("Product Vision")
         st.write(
             """
-            - To create a leading platform that empowers and inspires women in business by sharing diverse stories of 
+            To create a leading platform that empowers and inspires women in business by sharing diverse stories of 
             leadership, innovation, and resilience. The podcast aims to bridge the gap between aspiring professionals 
             and industry leaders by providing valuable insights, actionable advice, and a sense of community, ultimately 
             fostering the growth and success of women in various fields. Through engaging and in-depth interviews, the 
@@ -56,15 +59,19 @@ with st.container():
         )
 
 # Product Roadmap
+st.write("---")
 st.subheader("Product Roadmap")
+st.image(product_roadmap1)
+st.image(product_roadmap2)
 
 # Product Strategy
 with st.container():
+    st.write("---")
+    st.subheader("Product Strategy")
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(graphic2, width=300)
+        st.image(graphic2)
     with text_column:
-        st.subheader("Product Strategy")
         st.write(
             """
             1. **Audience-Centric Content:** Deliver high-value content that resonates with aspiring women in business, 
@@ -80,35 +87,23 @@ with st.container():
             """
         )
 
-
-# Draft 1
-
-
-
-st.write("**Market Research:**")
-st.write(
-    """
-    - Conducted in-depth market research to identify trending topics and audience interests.
-    - Administered surveys to student members to gauge their preferences, including specific industries, roles, career 
-    paths, and companies they wanted to learn about.
-    - Used survey insights to guide content strategy and guest selection, ensuring alignment with the most relevant and 
-    sought-after topics.
-    - Crafted tailored question lists for guest speakers based on survey findings, enhancing the relevance and engagement 
-    of each episode.
-    """
-)
-st.write("**Go-to-Market Strategy:**")
-st.write(
-    """
-    - Collaborated with the WIB External Committee to align podcast goals with organizational objectives.
-    - Coordinated with the Finance Committee to communicate budget costs and ensure financial alignment.
-    - Coordinated with studio technicians to ensure the seamless production and distribution of podcast episodes.
-    - Worked with the Marketing Committee to promote the podcast through social media and the organization’s Slack channel.
-    """
-)
-st.write("**Impact & Growth:**")
-st.write(
-    """
-    - Continuously iterated based on user feedback, expanding the podcast’s reach and influence by 15% each quarter.
-    """
-)
+# Market Research & Go-to-Market Strategy
+with st.container():
+    st.write("---")
+    st.subheader("Market Research & Go-to-Market Strategy")
+    text_column, image_column = st.columns((3.5, 1))
+    with image_column:
+        st.image(graphic3)
+    with text_column:
+        st.write(
+            """
+            - Conducted surveys among student members to identify key topics, industries, and roles of interest, 
+            ensuring podcast content aligns with audience demand.
+            - Leveraged survey insights to craft a personalized content strategy, selecting guest speakers and 
+            tailoring episode themes accordingly.
+            - Developed a go-to-market strategy, including targeted outreach through social media and the 
+            organization’s Slack channel, to maximize listener engagement.
+            - Coordinated with the Marketing and Finance Committees to manage promotion and budget, resulting 
+            in a 40% increase in visibility and listener engagement.
+            """
+        )
