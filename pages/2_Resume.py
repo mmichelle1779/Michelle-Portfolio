@@ -74,6 +74,8 @@ st.write(
     resulting in a 20% boost in productivity and enhanced team collaboration in a fast-paced environment.
     - Managed multiple tasks and deadlines, coordinating logistics for 50+ conferences using Trello and Slack, 
     improving efficiency and stakeholder satisfaction by 15%.
+    - Adapted to changing environments by evaluating workflows, leading to a 20% improvement in response time and a 
+    15% boost in cohesion.
     - Conducted evaluations and feedback, improving database accuracy and timeliness by 15% and increasing customer 
     satisfaction by 10%.
 
@@ -83,9 +85,10 @@ st.write("**Product Marketing Intern | Volition Beauty**")
 st.write("May 2023 - August 2023 | San Francisco, CA")
 st.write(
     """
+    - Engaged in all stages of product development, from ideation and technical design to product release, driving a 
+    10% increase in brand reach by collaborating with engineers and designers to refine product features.
     - Managed product roadmaps and aligned product strategy with customer needs throughout the product lifecycle, 
-    contributing to a 10% expansion in brand reach and a 15% boost in engagement by integrating research findings 
-    into marketing and development strategies.
+    contributing to a 15% boost in engagement by integrating research findings into marketing and development strategies.
     - Enhanced understanding of the product lifecycle by actively participating in product discovery, planning, and 
     development phases, driving alignment between customer experience and product strategy.
     - Created and maintained marketing databases using Salesforce, increasing email open rates by 10% and click-through 
@@ -104,8 +107,10 @@ st.write(
     - Orchestrated major events, including the Annual Business Conference with 500+ attendees, increasing sponsorships 
     by 20% and event participation by 15% through established industry partnerships that enhanced networking 
     opportunities.
-    - Launched and managed the UCSD Women in Business podcast, defining the product vision, creating a content roadmap, 
-    and leading market research efforts to ensure alignment with audience interests, resulting in a high-impact 
+    - Spearheaded the UCSD Women in Business podcast, overseeing all stages of the podcast lifecycle from ideation and 
+    content planning to production and marketing. 
+    - Achieved a 25% increase in engagement by collaborating with designers, Marketing, and Internal teams, creating 
+    a content roadmap and leading market research efforts to ensure alignment with audience interests, resulting in a high-impact 
     platform for industry insights.
     - Managed event budgets, improving adherence by 10% and demonstrating strong organizational and time management skills.
     """
