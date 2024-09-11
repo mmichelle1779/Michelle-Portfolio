@@ -69,7 +69,6 @@ with st.container():
                  "(https://docs.google.com/document/d/1vDb1Sjt3bEbyKkZzqr4WmFqzDMEAxsDINTeFEkJDUeM/edit).")
         st.write("Want a sneak peek? Check out this [clip]"
                  "(https://drive.google.com/file/d/1QUWe0NPRsF8MLLswyb0AyUamGvhnsvYW/view?usp=sharing) of our first episode!")
-        st.markdown("Spotify Podcast link coming soon!")
 
 with st.container():
     image_column, text_column = st.columns((1, 2))
