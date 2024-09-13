@@ -31,8 +31,10 @@ with st.container():
             a platform for diverse voices and perspectives.
             """
         )
-        st.write("Review my in-depth [product proposal]"
+        st.write("Review my [product proposal]"
                  "(https://docs.google.com/document/d/1vDb1Sjt3bEbyKkZzqr4WmFqzDMEAxsDINTeFEkJDUeM/edit) or see more below.")
+        st.write("Check out my [marking launch campaign]"
+                 "(https://docs.google.com/document/d/1EtkHKPGVMTpaGLwpb9LE22IvNv5XRhipm8OIGtWdypQ/edit?usp=sharing)")
         st.write("Want a sneak peek? Check out this [clip]"
                  "(https://drive.google.com/file/d/1QUWe0NPRsF8MLLswyb0AyUamGvhnsvYW/view?usp=sharing) of our first episode!")
 
